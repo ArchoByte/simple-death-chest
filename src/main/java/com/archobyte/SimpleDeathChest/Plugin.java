@@ -8,10 +8,11 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class Plugin extends JavaPlugin
 {
-  private static final Logger LOGGER=Logger.getLogger("simple-death-chest");
+  public static final Logger LOGGER=Logger.getLogger("simple-death-chest");
 
   public void onEnable()
   {
+    getServer().getPluginManager().registerEvents(new DeathListener(), this);
     LOGGER.info("simple-death-chest enabled");
   }
 
