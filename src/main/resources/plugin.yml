@@ -1,4 +1,4 @@
 name: simple-death-chest
-main: com.archobyte.SimpleDeathChest.Plugin
-version: 0.1.0
+main: com.archobyte.SimpleDeathChest.DeathChestPlugin
+version: 0.1.1
 api-version: 1.15
